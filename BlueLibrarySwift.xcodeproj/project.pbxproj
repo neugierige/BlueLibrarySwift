@@ -19,6 +19,7 @@
 		B12699191D7632D600C20C9F /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12699181D7632D600C20C9F /* Album.swift */; };
 		B126991B1D76389F00C20C9F /* AlbumExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B126991A1D76389F00C20C9F /* AlbumExtensions.swift */; };
 		B126991D1D7729B000C20C9F /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B126991C1D7729B000C20C9F /* AlbumView.swift */; };
+		B126991F1D772F4700C20C9F /* HorizontalScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B126991E1D772F4700C20C9F /* HorizontalScroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		B12699181D7632D600C20C9F /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		B126991A1D76389F00C20C9F /* AlbumExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumExtensions.swift; sourceTree = "<group>"; };
 		B126991C1D7729B000C20C9F /* AlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		B126991E1D772F4700C20C9F /* HorizontalScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalScroller.swift; path = ../HorizontalScroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,14 +92,15 @@
 			isa = PBXGroup;
 			children = (
 				101DD6EA1A052EE400161F0D /* API */,
-				101DD6CA1A052EDE00161F0D /* AppDelegate.swift */,
 				B12699181D7632D600C20C9F /* Album.swift */,
-				B126991C1D7729B000C20C9F /* AlbumView.swift */,
 				B126991A1D76389F00C20C9F /* AlbumExtensions.swift */,
+				B126991C1D7729B000C20C9F /* AlbumView.swift */,
+				B126991E1D772F4700C20C9F /* HorizontalScroller.swift */,
 				B12699161D76327200C20C9F /* PersistencyManager.swift */,
 				B12699141D7631B700C20C9F /* LibraryAPI.swift */,
 				101DD6CC1A052EDE00161F0D /* ViewController.swift */,
 				101DD6CE1A052EDE00161F0D /* Main.storyboard */,
+				101DD6CA1A052EDE00161F0D /* AppDelegate.swift */,
 				101DD6D11A052EDE00161F0D /* Images.xcassets */,
 				101DD6D31A052EDE00161F0D /* LaunchScreen.xib */,
 				101DD6C81A052EDE00161F0D /* Supporting Files */,
@@ -243,6 +246,7 @@
 				101DD6CD1A052EDE00161F0D /* ViewController.swift in Sources */,
 				B126991B1D76389F00C20C9F /* AlbumExtensions.swift in Sources */,
 				101DD6CB1A052EDE00161F0D /* AppDelegate.swift in Sources */,
+				B126991F1D772F4700C20C9F /* HorizontalScroller.swift in Sources */,
 				B12699151D7631B700C20C9F /* LibraryAPI.swift in Sources */,
 				101DD6EC1A052F0E00161F0D /* HTTPClient.swift in Sources */,
 				B126991D1D7729B000C20C9F /* AlbumView.swift in Sources */,
